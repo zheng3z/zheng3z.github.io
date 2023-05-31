@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personal-portfolio",
-  "homepage": "https://zheng3z.github.io/PortfolioV2",
+  "homepage": "https://zheng3z.github.io/",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",

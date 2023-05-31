@@ -1,28 +1,26 @@
 # PortfolioV2
 
-![PortfolioV2](/images/portfolio1.gif)
-
-### A clean portfolio template. (Readme will be updated soon)
+### A clean personal portfolio. Huge thanks to [harikanani](github.com/harikanani) for template.
 
 # Sections
 
 - Home
-- Education and Certificates
-- Experience
+- Education
 - Projects
-- Contact and Resume
+- Contact
 
-# How To Use
+# How to Use
 
 - Clone this repository (or fork, then clone your fork :) )
 - Run `npm i`
 - Check it out using `npm start`
 
-# How Do I Customize
+# How to Customize
 
-- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
-- In `src/portfolio.js` you can add your personal portfolio details.
+- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`. Delete `/PortfolioV2`.
+- In `src/portfolio.js` you can customize your personal portfolio details.
 - In `src/theme.js` you can change the theme colors. You can change between Light and Dark theme with the theme switch on the header.
+- Use [UnDraw](https://undraw.co/illustrations) to draw SVGs.
 
 # How to Deploy
 
@@ -37,10 +35,11 @@
 - Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository. That's it. Done.
   You may need to `git init` and force push at every new build.
 
-**Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
+**Option 2 ^This deploy^ (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
 
+- Run `npm install gh-pages --save-dev`. This package will help create a distributable version of the React app to a branch named `gh-pages`.
 - Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
-- The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
+- Then, [configure your GitHub page](https://github.com/gitname/react-gh-pages#8-configure-github-pages).
 
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
 
@@ -60,5 +59,6 @@ Now, your website is successfully deployed and you can visit it at `<your-github
 
 # References
 
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
+Based on https://github.com/harikanani
+
 Illustrations: https://undraw.co/
