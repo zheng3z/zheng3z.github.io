@@ -8,10 +8,10 @@ function DegreeCard(props) {
   const theme = props.theme;
 
   const style_img = style({
-    width: "220px",
-    height: "auto",
+    width: "168px",
+    height: "159px",
     borderRadius: " 50%",
-    padding: "10px",
+    padding: "0px",
     border: `1px solid ${theme.accentColor}`,
     marginRight: "50px",
     boxShadow: `0px 0px 5px ${theme.accentColor}`,
@@ -71,11 +71,12 @@ function DegreeCard(props) {
     <div className="degree-card">
       <Flip left duration={2000}>
         <div {...style_img}>
+          {/* show school img*/}
           <img
             style={{
               maxWidth: "100%",
               maxHeight: "100%",
-              transform: "scale(-50%, -50%)",
+              transform: "scale(-90%, -90%)",
             }}
             src={require(`../../assests/images/${degree.logo_path}`)}
             alt={degree.alt_name}

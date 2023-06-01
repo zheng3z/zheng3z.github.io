@@ -29,14 +29,13 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                I am pursuing Master's Degree in Computer Science at University of Illinois Urbana-Champaign
               </p>
             </div>
           </div>
         </Fade>
         <Educations theme={props.theme} />
-        <Certifications theme={props.theme} />
+        {/*<Certifications theme={props.theme} />*/}
       </div>
       <Footer theme={props.theme} />
     </div>

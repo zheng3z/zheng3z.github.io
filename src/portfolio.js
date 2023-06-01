@@ -4,7 +4,7 @@
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "",
+  googleTrackingID: "G-V6VP7ZWDX2",
 };
 
 //Home Page
@@ -14,11 +14,11 @@ const greeting = {
   logo_name: "zheng.z()",
   nickname: "harry / picleric",
   full_name: "Zheng Zou",
-  subTitle: "\nBackend / Full stack Developer. Math lover. \nAlways learning.",
-  jobDescription: "Now actively seeking Fall internships!",
+  subTitle: "\nBackend / Full stack Developer. Math Lover. \nAlways learning. 💡",
+  jobDescription: "Now Seeking Full-Time Fall Internships!🔍",
   resumeLink:
-    "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+    "https://docs.google.com/document/d/1tZu5f6Tc5OjYftTctnu227697fn-CzLyvbkiq-SfFEM/edit?usp=sharing",
+  mail: "mailto:zouzhey@outlook.com",
 };
 
 const socialMediaLinks = {
@@ -35,14 +35,14 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Backend / Full Stack Development",
+      title: "Development Skills",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Build reliable backend system with Spring and MyBatis framework",
+        "⚡ Build intuitive frontend using VueJS and ReactJS",
+        "⚡ Manage database system such as MySQL and MongoDB",
+        "⚡ ",
+        "⚡ Deploy works on Google Cloud Platform with Docker",
       ],
       softwareSkills: [
 
@@ -249,53 +249,36 @@ const skills = {
       title: "Deep / Machine Learning ",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Familiar with Python, Pytorch, and Numpy",
+        "⚡ Research project on Semi-Supervised and Supervised Learning",
+        "⚡ Course project about deploying & training Large Language Models",
+        "⚡ Course experience with semantic segmentation",
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "simple-icons:pytorch",
           style: {
-            color: "#FF9900",
-          },
+            color: "#E94E32"
+          }
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#38AFBB",
-          },
+            color: "#3776AB"
+          }
         },
+
         {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
+          skillName: "Cuda",
+          fontAwesomeClassname: "simple-icons:nvidia",
           style: {
-            color: "#6863A6",
-          },
+            color: "#3776AB"
+          }
         },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
+
+
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -318,32 +301,31 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
-      subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - Present",
+      title: "University of Illinois Urbana-Champaign",
+      subtitle: "Master of Computer Science",
+      logo_path: "uiuc_r.png",
+      alt_name: "UIUC",
+      duration: "2022.8 - present",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology.",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I am currently pursuing my Master's Degree in Computer Science.",
+        "⚡ I have taken Software Engineering, Database, Cloud Networking, Computer Graphics, and Computer Vision courses.",
+        "⚡ I plan to graduate on Dec 2023 or May 2024 if Fall internship applies."
       ],
-      website_link: "http://www.ssgec.ac.in/",
+      website_link: "https://grainger.illinois.edu/",
     },
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
-      duration: "2018 - 2021",
+      title: "University of California, Davis",
+      subtitle: "B.S. in Computer Engineering",
+      logo_path: "ucd.png",
+      alt_name: "UCD",
+      duration: "2018 - 2022",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-        "⚡ I have secured 9.82 CGPA.",
+        "⚡ I studied core subjects like Data Structures, OOP, Networking, Operating Systems.",
+        "⚡ I completed engineering courses such as FPGA, Embedded System, and VLSI.",
+        "⚡ I implemented several projects during undergrad.",
+        "⚡ I graduated with honor! 🎓",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://engineering.ucdavis.edu/",
     },
   ],
 };

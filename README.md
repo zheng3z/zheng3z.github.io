@@ -38,7 +38,7 @@
 **Option 2 ^This deploy^ (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
 
 - Run `npm install gh-pages --save-dev`. This package will help create a distributable version of the React app to a branch named `gh-pages`.
-- Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
+- Run `npm run deploy` to build and create branch `gh-pages`. It will push the `build` files to that branch.
 - Then, [configure your GitHub page](https://github.com/gitname/react-gh-pages#8-configure-github-pages).
 
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  

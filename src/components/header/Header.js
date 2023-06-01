@@ -130,7 +130,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold", color: "#47a148" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Resume
+                Contact Me
               </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>
