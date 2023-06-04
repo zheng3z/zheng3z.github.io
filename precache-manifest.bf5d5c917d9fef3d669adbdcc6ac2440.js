@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b571463d778b0f7476acb10dc9a8007",
+    "revision": "7d637dc062add01ac177d3e40d707ea4",
     "url": "/index.html"
   },
   {
-    "revision": "e5fe9f81eea3f114dac0",
-    "url": "/static/css/main.d8bac8fe.chunk.css"
+    "revision": "5af270613921573cd4a8",
+    "url": "/static/css/main.5afb9016.chunk.css"
   },
   {
-    "revision": "cfea374adf274d24ec19",
-    "url": "/static/js/2.22bdbdf8.chunk.js"
+    "revision": "834f6f354e07b25408ce",
+    "url": "/static/js/2.68735651.chunk.js"
   },
   {
     "revision": "c21d579849576bf6a47550572ff70f62",
-    "url": "/static/js/2.22bdbdf8.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.68735651.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5fe9f81eea3f114dac0",
-    "url": "/static/js/main.c22578be.chunk.js"
+    "revision": "5af270613921573cd4a8",
+    "url": "/static/js/main.860a4965.chunk.js"
   },
   {
     "revision": "008aefb0927de5ee9862",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "af61de6c59e232c006c4d1f12e4c8c3d",
+    "url": "/static/media/BkeBl601.af61de6c.svg"
   },
   {
     "revision": "94ca48ca47d40c014cfbb61b4772d0ad",
@@ -92,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
+    "url": "/static/media/fontawesome-webfont.acf3dcb7.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -124,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gtu.3d9465c3.png"
   },
   {
-    "revision": "7a2dbf7a2595600c00118eea8a7a52f8",
-    "url": "/static/media/hackathon1.7a2dbf7a.svg"
+    "revision": "f7288055334eeee2693e025ee2a8a8ee",
+    "url": "/static/media/hackathon1.f7288055.svg"
   },
   {
     "revision": "85891c5d1be619f9e578944e0504fe7e",

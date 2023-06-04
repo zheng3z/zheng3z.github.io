@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8bac8fe.chunk.css",
-    "main.js": "/static/js/main.c22578be.chunk.js",
-    "main.js.map": "/static/js/main.c22578be.chunk.js.map",
+    "main.css": "/static/css/main.5afb9016.chunk.css",
+    "main.js": "/static/js/main.860a4965.chunk.js",
+    "main.js.map": "/static/js/main.860a4965.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.de6673d8.js",
     "runtime-main.js.map": "/static/js/runtime-main.de6673d8.js.map",
-    "static/js/2.22bdbdf8.chunk.js": "/static/js/2.22bdbdf8.chunk.js",
-    "static/js/2.22bdbdf8.chunk.js.map": "/static/js/2.22bdbdf8.chunk.js.map",
+    "static/js/2.68735651.chunk.js": "/static/js/2.68735651.chunk.js",
+    "static/js/2.68735651.chunk.js.map": "/static/js/2.68735651.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fc09c5f93d94029f7fda57f82e4f053a.js": "/precache-manifest.fc09c5f93d94029f7fda57f82e4f053a.js",
+    "precache-manifest.bf5d5c917d9fef3d669adbdcc6ac2440.js": "/precache-manifest.bf5d5c917d9fef3d669adbdcc6ac2440.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d8bac8fe.chunk.css.map": "/static/css/main.d8bac8fe.chunk.css.map",
-    "static/js/2.22bdbdf8.chunk.js.LICENSE.txt": "/static/js/2.22bdbdf8.chunk.js.LICENSE.txt",
+    "static/css/main.5afb9016.chunk.css.map": "/static/css/main.5afb9016.chunk.css.map",
+    "static/js/2.68735651.chunk.js.LICENSE.txt": "/static/js/2.68735651.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/BkeBl601.svg": "/static/media/BkeBl601.af61de6c.svg",
     "static/media/bauddhikgeeks-transparent.png": "/static/media/bauddhikgeeks-transparent.074c759b.png",
     "static/media/bauddhikgeeks.png": "/static/media/bauddhikgeeks.f2d490dc.png",
     "static/media/buld.jpg": "/static/media/buld.a1051a22.jpg",
@@ -24,7 +25,7 @@
     "static/media/github.png": "/static/media/github.0ba2aa20.png",
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.0c8a4c11.jpg",
     "static/media/gtu.png": "/static/media/gtu.3d9465c3.png",
-    "static/media/hackathon1.svg": "/static/media/hackathon1.7a2dbf7a.svg",
+    "static/media/hackathon1.svg": "/static/media/hackathon1.f7288055.svg",
     "static/media/harikrushn.jpg": "/static/media/harikrushn.85891c5d.jpg",
     "static/media/iit.png": "/static/media/iit.36d7942a.png",
     "static/media/ino.png": "/static/media/ino.ccf88661.png",
@@ -45,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.de6673d8.js",
-    "static/js/2.22bdbdf8.chunk.js",
-    "static/css/main.d8bac8fe.chunk.css",
-    "static/js/main.c22578be.chunk.js"
+    "static/js/2.68735651.chunk.js",
+    "static/css/main.5afb9016.chunk.css",
+    "static/js/main.860a4965.chunk.js"
   ]
 }
