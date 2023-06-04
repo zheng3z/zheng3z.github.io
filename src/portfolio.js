@@ -274,7 +274,7 @@ const skills = {
           skillName: "Cuda",
           fontAwesomeClassname: "simple-icons:nvidia",
           style: {
-            color: "#3776AB"
+            color: "#76b900"
           }
         },
 
