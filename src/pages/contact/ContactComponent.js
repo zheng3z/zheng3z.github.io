@@ -3,9 +3,10 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import BlogsImg from "./BlogsImg";
+import ContactImg from "./ContactImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import {greeting, contactPageData, socialMediaLinks} from "../../portfolio.js";
 import { style } from "glamor";
 
 const ContactData = contactPageData.contactSection;
@@ -34,13 +35,19 @@ function Contact(props) {
             {/*    alt=""*/}
             {/*  />*/}
             {/*</div>*/}
+            <div className="contact-heading-img-div">
+              <ContactImg theme={theme} />
+            </div>
+
             <div className="contact-heading-text-div">
+
               <h1
                 className="contact-heading-text"
                 style={{ color: theme.text }}
               >
                 {ContactData["title"]}
               </h1>
+
               <p
                 className="contact-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
@@ -50,9 +57,10 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
+              <a {...styles} className="general-btn" href={"mailto:" + socialMediaLinks.outlook}>
+                Mail me
               </a>
+
             </div>
           </div>
         </Fade>

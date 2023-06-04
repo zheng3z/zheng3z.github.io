@@ -9,6 +9,8 @@
 
 .software-skill-inline-languages {
   display: inline-block;
+  margin-left: -2px;
+  margin-top: 0px;
   margin-right: 20px;
   margin-bottom: 0px;
   font-family: "Google Sans Regular";
