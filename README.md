@@ -62,3 +62,7 @@ Now, your website is successfully deployed and you can visit it at `<your-github
 Based on https://github.com/harikanani
 
 Illustrations: https://undraw.co/
+
+# Others
+
+Cookie by Google Analytics to track website traffic.
